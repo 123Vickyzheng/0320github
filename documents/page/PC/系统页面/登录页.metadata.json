@@ -1,0 +1,112 @@
+{
+  "id" : "RZ6027VL",
+  "name" : "登录页",
+  "resourceType" : "page",
+  "description" : "",
+  "variables" : [ {
+    "id" : "PAAH82ZG",
+    "name" : "redirect",
+    "isParameter" : true,
+    "defaultValue" : {
+      "type" : "literal"
+    },
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "description" : ""
+  }, {
+    "id" : "O4H0V7JW",
+    "name" : "loginError",
+    "isParameter" : true,
+    "defaultValue" : {
+      "type" : "expression",
+      "expression" : "\"\""
+    },
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "description" : ""
+  }, {
+    "id" : "D3MD419A",
+    "name" : "userName",
+    "defaultValue" : {
+      "type" : "literal"
+    },
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "description" : ""
+  }, {
+    "id" : "KJ563DX2",
+    "name" : "password",
+    "defaultValue" : {
+      "type" : "literal"
+    },
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "description" : ""
+  }, {
+    "id" : "EZVT4BAV",
+    "name" : "rememberMe",
+    "defaultValue" : {
+      "type" : "literal"
+    },
+    "dataType" : {
+      "typeId" : "Boolean"
+    },
+    "description" : ""
+  }, {
+    "id" : "FTZRHAHN",
+    "name" : "config",
+    "defaultValue" : {
+      "type" : "literal",
+      "literal" : ""
+    },
+    "dataType" : {
+      "typeId" : "V8DCIZG7"
+    },
+    "description" : ""
+  } ],
+  "logics" : [ ],
+  "eventListeners" : [ {
+    "id" : "Q7PIG64D",
+    "name" : "页面加载前1",
+    "variables" : [ ],
+    "parameters" : [ ],
+    "returnValues" : [ ],
+    "targetEvent" : "enter"
+  } ],
+  "elementEventListeners" : [ {
+    "elementId" : "IDLS1VG7",
+    "elementName" : "登录按钮",
+    "pluginName" : "component-ant-design",
+    "type" : "button",
+    "targetEvent" : "click",
+    "id" : "PLTLCFH4",
+    "name" : "单击",
+    "variables" : [ {
+      "id" : "N2QM86TL",
+      "name" : "message",
+      "dataType" : {
+        "typeId" : "String"
+      }
+    }, {
+      "id" : "O6J7VFJX",
+      "name" : "success",
+      "dataType" : {
+        "typeId" : "Boolean"
+      }
+    }, {
+      "id" : "EXPR8K7D",
+      "name" : "isValid",
+      "dataType" : {
+        "typeId" : "Boolean"
+      }
+    } ],
+    "parameters" : [ ],
+    "returnValues" : [ ]
+  } ],
+  "platform" : "pc",
+  "url" : "/PC/系统页面/登录页"
+}
